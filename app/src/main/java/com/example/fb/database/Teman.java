@@ -7,8 +7,6 @@ public class Teman implements Serializable {
     String nama;
     String telpon;
 
-    public Teman() {
-    }
 
     public Teman(String nama, String telpon) {
         this.nama = nama;
@@ -44,6 +42,7 @@ public class Teman implements Serializable {
         return "Teman{" +
                 "nama='" + nama + '\'' +
                 ", telpon='" + telpon + '\'' +
+                ", kode='" + kode + '\''+
                 '}';
     }
 }

@@ -11,5 +11,14 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:textColor="@android:color/black"
+        android:text="Nama Teman"
         android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/tv_telpon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="telpon Teman"
+        android:textSize="12pt"/>
 </LinearLayout>

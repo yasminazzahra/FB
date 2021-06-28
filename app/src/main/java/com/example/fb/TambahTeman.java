@@ -38,7 +38,7 @@ public class TambahTeman extends AppCompatActivity {
                     nm = edNama.getText().toString();
                     tlp = edTelpon.getText().toString();
 
-                    submitTeman(new Teman(nm,tlp));
+                    submitTeman(new Teman(edNama.getText().toString(), edTelpon.getText().toString()));
                 }
                 else
                     Toast.makeText(TambahTeman.this, "Data tidak boleh kosong",Toast.LENGTH_SHORT).show();
